@@ -56,6 +56,7 @@
                 <th>User Name</th>
                 <th>Mobile</th>
                 <th>Email</th>
+                <th>View Card</th>
             </tr>
         </thead>
         <tbody>
@@ -71,6 +72,7 @@
                             <td><?php echo($row["name"]) ?></td>
                             <td><?php echo($row["mobile"]) ?></td>
                             <td><?php echo($row["email"]) ?></td>
+                            <td><a target="_blank" href="./card.php?id=<?php echo($row["id"]) ?>">Click Here</a></td>
                         </tr>
                     <?php
                 }
